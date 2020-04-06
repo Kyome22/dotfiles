@@ -1,0 +1,15 @@
+{
+    "window.zoomLevel": 1,
+    "editor.autoClosingBrackets": "always",
+    "editor.folding": false,
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "workbench.colorTheme": "Monokai Dimmed",
+    "swift.languageServerPath": "/usr/local/bin/langserver-swift",
+    "editor.wordBasedSuggestions": false,
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.detectIndentation": false,
+    "workbench.statusBar.visible": false,
+    "workbench.activityBar.visible": false
+}
