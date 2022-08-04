@@ -1,15 +1,43 @@
 {
-    "window.zoomLevel": 1,
-    "editor.autoClosingBrackets": "always",
-    "editor.folding": false,
-    "files.insertFinalNewline": true,
-    "files.trimFinalNewlines": true,
-    "files.trimTrailingWhitespace": true,
-    "workbench.colorTheme": "Monokai Dimmed",
-    "swift.languageServerPath": "/usr/local/bin/langserver-swift",
-    "editor.wordBasedSuggestions": false,
-    "workbench.startupEditor": "newUntitledFile",
-    "editor.detectIndentation": false,
-    "workbench.statusBar.visible": false,
-    "workbench.activityBar.visible": false
+  "editor.accessibilitySupport": "off",
+  "editor.autoClosingBrackets": "always",
+  "editor.defaultFormatter": null,
+  "editor.detectIndentation": false,
+  "editor.folding": false,
+  "editor.formatOnSave": true,
+  "editor.renderWhitespace": "all",
+  "editor.tabSize": 2,
+  "editor.wordBasedSuggestions": false,
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+  "redhat.telemetry.enabled": true,
+  "security.workspace.trust.untrustedFiles": "open",
+  "window.restoreWindows": "none",
+  "workbench.activityBar.visible": true,
+  "workbench.colorTheme": "Visual Studio Light",
+  "workbench.statusBar.visible": true,
+  "workbench.startupEditor": "newUntitledFile",
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  }
 }
