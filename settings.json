@@ -20,7 +20,8 @@
   "workbench.startupEditor": "newUntitledFile",
   "[markdown]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true
+    "editor.formatOnSave": true,
+    "files.trimTrailingWhitespace": false
   },
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
