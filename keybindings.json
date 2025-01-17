@@ -1,7 +1,13 @@
+// 既定値を上書きするには、このファイル内にキー バインドを挿入します
 [
   {
     "key": "ctrl+i",
     "command": "editor.action.reindentselectedlines"
+  },
+  {
+    "key": "shift+cmd+down",
+    "command": "-cursorBottomSelect",
+    "when": "textInputFocus"
   },
   {
     "key": "alt+down",
@@ -19,14 +25,9 @@
     "when": "editorTextFocus && !editorReadonly"
   },
   {
-    "key": "alt+down",
-    "command": "editor.action.insertCursorBelow",
-    "when": "editorTextFocus"
-  },
-  {
-    "key": "alt+cmd+down",
-    "command": "-editor.action.insertCursorBelow",
-    "when": "editorTextFocus"
+    "key": "alt+up",
+    "command": "-showPrevParameterHint",
+    "when": "editorFocus && parameterHintsMultipleSignatures && parameterHintsVisible"
   },
   {
     "key": "alt+up",
@@ -35,23 +36,8 @@
   },
   {
     "key": "alt+up",
-    "command": "-showPrevParameterHint",
-    "when": "editorFocus && parameterHintsMultipleSignatures && parameterHintsVisible"
-  },
-  {
-    "key": "alt+up",
     "command": "-editor.action.moveLinesUpAction",
     "when": "editorTextFocus && !editorReadonly"
-  },
-  {
-    "key": "alt+up",
-    "command": "editor.action.insertCursorAbove",
-    "when": "editorTextFocus"
-  },
-  {
-    "key": "alt+cmd+up",
-    "command": "-editor.action.insertCursorAbove",
-    "when": "editorTextFocus"
   },
   {
     "key": "alt+right",
@@ -74,9 +60,24 @@
     "when": "editorTextFocus"
   },
   {
-    "key": "shift+end",
-    "command": "-cursorEndSelect",
-    "when": "textInputFocus"
+    "key": "alt+down",
+    "command": "editor.action.insertCursorBelow",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "alt+cmd+down",
+    "command": "-editor.action.insertCursorBelow",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "alt+up",
+    "command": "editor.action.insertCursorAbove",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "alt+cmd+up",
+    "command": "-editor.action.insertCursorAbove",
+    "when": "editorTextFocus"
   },
   {
     "key": "ctrl+shift+e",
@@ -84,8 +85,8 @@
     "when": "textInputFocus"
   },
   {
-    "key": "shift+cmd+down",
-    "command": "-cursorBottomSelect",
+    "key": "shift+end",
+    "command": "-cursorEndSelect",
     "when": "textInputFocus"
   }
 ]
